@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		676D0FC41F75143200A3830A /* Color&Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676D0FC31F75143200A3830A /* Color&Font.swift */; };
 		67C3F35F1F751313000455AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3F35E1F751313000455AC /* AppDelegate.swift */; };
 		67C3F3611F751313000455AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3F3601F751313000455AC /* ViewController.swift */; };
 		67C3F3641F751313000455AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C3F3621F751313000455AC /* Main.storyboard */; };
 		67C3F3661F751313000455AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67C3F3651F751313000455AC /* Assets.xcassets */; };
 		67C3F3691F751313000455AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C3F3671F751313000455AC /* LaunchScreen.storyboard */; };
-		67C3F3711F751328000455AC /* Color&Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C3F3701F751328000455AC /* Color&Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		676D0FC31F75143200A3830A /* Color&Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color&Font.swift"; sourceTree = "<group>"; };
 		67C3F35B1F751313000455AC /* PingPangFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPangFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C3F35E1F751313000455AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67C3F3601F751313000455AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		67C3F3651F751313000455AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67C3F3681F751313000455AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67C3F36A1F751313000455AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67C3F3701F751328000455AC /* Color&Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color&Font.swift"; path = "../../FontTest/FontTest/Color&Font.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				67C3F35E1F751313000455AC /* AppDelegate.swift */,
 				67C3F3601F751313000455AC /* ViewController.swift */,
-				67C3F3701F751328000455AC /* Color&Font.swift */,
+				676D0FC31F75143200A3830A /* Color&Font.swift */,
 				67C3F3621F751313000455AC /* Main.storyboard */,
 				67C3F3651F751313000455AC /* Assets.xcassets */,
 				67C3F3671F751313000455AC /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			files = (
 				67C3F3611F751313000455AC /* ViewController.swift in Sources */,
 				67C3F35F1F751313000455AC /* AppDelegate.swift in Sources */,
-				67C3F3711F751328000455AC /* Color&Font.swift in Sources */,
+				676D0FC41F75143200A3830A /* Color&Font.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
